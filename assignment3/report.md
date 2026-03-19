@@ -26,3 +26,7 @@ T_wall(t) = 293 + 57 * sin(2 * pi * t)
 The simulation ran for 10 time steps. The density residual converged steadily within each time step (rms[Rho] < -5.9). Volume output `flow_00000.vtu` through `flow_00009.vtu` and surface output files were written per step. The boundary condition update worked correctly — the solver confirmed "Updating boundary conditions" at each step.
 
 The `history.csv` file records residuals across all inner iterations.
+
+## Convergence Plot
+
+![Residual History](convergence.png)

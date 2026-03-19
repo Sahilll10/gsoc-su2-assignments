@@ -36,3 +36,7 @@ The simulation ran for 10000 iterations. The pressure residual reached rms[P] = 
 The simulation predicts velocity decay along the centerline and radial spreading consistent with jet flow physics. The co-flow ratio U_jet/U_coflow = 100 matches the experimental setup.
 
 **Reference:** Fukushima, C., Aanen, L., and Westerweel, J. (2000). *Investigation of the Mixing Process in an Axisymmetric Turbulent Jet Using PIV and LIF*. DOI: 10.1007/978-3-662-08263-8_20. This paper provides mean velocity and concentration profiles for a self-similar turbulent jet at Re = 2x10^3, which are the standard validation quantities for this type of case — centerline velocity decay (z^-1 scaling) and radial half-width growth.
+
+## Convergence Plot
+
+![Convergence History](convergence.png)

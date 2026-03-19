@@ -44,3 +44,7 @@ VOLUME_OUTPUT= (PRIMITIVE)
 Screen output showed `Avg_a = 3.4722e+02` m/s at every iteration. This matches the theoretical value for air at T=300 K: sqrt(1.4 x 287 x 300) = 347.2 m/s.
 
 The `history.csv` records `AVG_SOUND_SPEED` alongside residuals. The `turb_SA_flatplate.cfg` contains the configuration used.
+
+## Screen Output and Sound Speed History
+
+![Sound Speed Output](sound_speed_output.png)

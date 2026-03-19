@@ -18,3 +18,7 @@ The non-uniform thermal boundary condition changes the local heat flux distribut
 ## Results
 
 The simulation ran for 10 time steps successfully. All 10 iterations completed with the spatially varying BC applied at each step. The density residual reached below -5.9 per time step. The `launch_varying_temp.py` file contains the full implementation.
+
+## Wall Temperature Profile
+
+![Wall Temperature](wall_temp_profile.png)
